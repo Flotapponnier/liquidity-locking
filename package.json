@@ -1,0 +1,17 @@
+{
+  "name": "token-shield",
+  "version": "1.0.0",
+  "description": "CLI to analyze token security using Mobula API",
+  "type": "module",
+  "scripts": {
+    "check": "node src/check.js",
+    "scan": "node src/scan.js",
+    "watch": "node src/watch.js"
+  },
+  "keywords": ["mobula", "token", "security", "defi", "rug", "honeypot"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
